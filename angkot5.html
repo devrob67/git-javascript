@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Soal Angkot 4</title>
+</head>
+<body>
+    
+    <h1>Pengkondisian dengan IF bersarang</h1>
+</body>
+<script>
+    
+
+    // for(var noAngkot = 1; noAngkot <= 10; noAngkot++){
+    //     if(noAngkot < 7){
+    //         console.log('Angkot No. ' + noAngkot + ' beroperasi dengan baik')
+    //     }else if(noAngkot == 8 ){
+    //         console.log('Angkot No. ' + noAngkot + ' sedang lembur');
+    //     }else{
+    //         console.log('Angkot No. ' + noAngkot + ' sedang tidak beroperasi');
+    //     }
+    // }
+    // noAngkot -= 1;
+    // console.log('jumlah angkot ada ' + noAngkot );
+
+    var noAngkot = 1;
+    while (noAngkot <= 10 ){
+        if(noAngkot < 7){
+            console.log('Angkot No. ' + noAngkot + ' beroperasi dengan baik')
+        }else if(noAngkot === 8 || noAngkot === 10){
+            console.log('Angkot No. ' + noAngkot + ' sedang lembur');
+        }else{
+            console.log('Angkot No. ' + noAngkot + ' sedang tidak beroperasi');
+        }
+        noAngkot++;
+    }
+        
+
+
+</script>
+</html>
