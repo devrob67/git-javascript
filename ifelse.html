@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF ELSE JAVASCRIPT</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+
+
+var lagi = true;
+while (lagi) {
+    var jmlAngkot = prompt('masukan jumlah angkot');
+    
+        if (jmlAngkot > 7){
+            alert('Angka yang anda masukan adalah' + jmlAngkot);
+            console.log('Jumlah angkot ada ' + jmlAngkot);
+            for(noAngkot = 1; noAngkot <= jmlAngkot; noAngkot++ ){
+                if(noAngkot <= 6){
+                    console.log('Angkot nomor ' + noAngkot + ' Beroperasi dengan baik');
+                }else{
+                    console.log('Angkot nomor ' + noAngkot + ' Sedang tidak beroperasi');
+                }
+            }
+        }else{
+            alert('masukan angka lebih dari 7');
+        }
+        lagi = confirm('masukan angka lagi ?');
+}
+    alert('Terima Kasih');
+    
+
+// for(noAngkot = 1; noAngkot <= jmlAngkot; noAngkot++){
+   
+//    if(noAngkot % 2 == 0){
+//        console.log(' Angkot ' +noAngkot+ ' Beroperasi dengan baik');
+//    }else{
+//        console.log(' Angkot ' +noAngkot+ ' Sedang tidak beroperasi')
+//    }
+// }
+
+    
+</script>
+</html>
