@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Javascript</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    var item = prompt('Masukan makanan & minuman : \n (contoh : nasi, daging, susu, burger, softdrink)');
+
+    switch(item){
+        case 'nasi':
+        case 'daging':
+        case 'susu' :
+        alert('Makanan / Minuman sehat');
+        break;
+        case 'burger':
+        case 'softdrink':
+        alert('Makanan / Minuman TIDAK SEHAT');
+        break;
+        default:
+        alert ('Anda memasukan Makanan /Minuman yang tidak ada pada menu');
+        break;
+    }
+</script>
+</html>
